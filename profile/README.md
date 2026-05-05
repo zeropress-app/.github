@@ -4,6 +4,12 @@ ZeroPress is a static-first, file-native publishing platform for the modern web.
 
 This organization contains the official repositories for the ZeroPress platform, including backend services, frontend apps, theme tooling, runtime validators, and public documentation.
 
+## Project Status
+
+ZeroPress is currently in alpha and actively dogfooded. The core publishing cycle is working end to end, including preview-data generation, theme rendering, static builds, and hosted deployment workflows.
+
+The v0.5 contracts may still change as the platform is refined for broader use, but the current toolchain is already being tested against real publishing scenarios.
+
 ## Core Repositories
 
 - [`zeropress`](https://github.com/zeropress-app/zeropress): Static-first, file-native CMS for the modern web.
@@ -20,6 +26,7 @@ This organization contains the official repositories for the ZeroPress platform,
 ## Build and Validation
 
 - [`zeropress-build`](https://github.com/zeropress-app/zeropress-build): CLI for full ZeroPress builds.
+- [`zeropress-build-pages`](https://github.com/zeropress-app/zeropress-build-pages): GitHub Action and CLI for building Markdown-based ZeroPress sites.
 - [`zeropress-build-core`](https://github.com/zeropress-app/zeropress-build-core): Core library for the ZeroPress build system.
 - [`zeropress-preview-data-validator`](https://github.com/zeropress-app/zeropress-preview-data-validator): Runtime contract validator for preview payloads.
 
