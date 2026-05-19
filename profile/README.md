@@ -8,7 +8,7 @@ This organization contains the official repositories for the ZeroPress platform,
 
 ZeroPress is currently in alpha and actively dogfooded. The core publishing cycle is working end to end, including preview-data generation, theme rendering, static builds, and hosted deployment workflows.
 
-The v0.5 contracts may still change as the platform is refined for broader use, but the current toolchain is already being tested against real publishing scenarios.
+The v0.6 contracts are being tested against real publishing scenarios. The GitHub Action and CLI toolchain is usable today, while the admin dashboard remains under active development.
 
 ## Core Repositories
 
@@ -20,7 +20,7 @@ The v0.5 contracts may still change as the platform is refined for broader use, 
 ## Theme Ecosystem
 
 - [`zeropress-theme`](https://github.com/zeropress-app/zeropress-theme): Developer toolkit for building ZeroPress themes.
-- [`create-zeropress-theme`](https://github.com/zeropress-app/create-zeropress-theme): CLI for scaffolding ZeroPress themes.
+- [`zeropress-create-theme`](https://github.com/zeropress-app/zeropress-create-theme): Starter generator.
 - [`zeropress-theme-validator`](https://github.com/zeropress-app/zeropress-theme-validator): Runtime validator for ZeroPress themes.
 
 ## Build and Validation
@@ -38,3 +38,4 @@ The v0.5 contracts may still change as the platform is refined for broader use, 
 
 - Website: [zeropress.app](https://zeropress.app)
 - Docs: [zeropress.dev](https://zeropress.dev)
+- License: Open source under Apache-2.0 and MIT.
