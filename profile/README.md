@@ -10,6 +10,14 @@ ZeroPress is currently in alpha and actively dogfooded. The core publishing cycl
 
 The v0.6 contracts are being tested against real publishing scenarios. The GitHub Action and CLI toolchain is usable today, while the admin dashboard remains under active development.
 
+## Contribution Policy
+
+ZeroPress is currently developed as a maintainer-led project.
+
+At this stage, we are not accepting pull requests for code changes. This helps us keep the architecture consistent and maintain clear code provenance during early development.
+
+Bug reports, feature requests, documentation feedback, and design discussions are welcome through Issues or Discussions. We appreciate thoughtful feedback and real-world usage reports.
+
 ## Core Repositories
 
 - [`zeropress`](https://github.com/zeropress-app/zeropress): Static-first, file-native CMS for the modern web.
