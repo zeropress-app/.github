@@ -21,14 +21,14 @@ Bug reports, feature requests, documentation feedback, and design discussions ar
 ## Core Repositories
 
 - [`zeropress`](https://github.com/zeropress-app/zeropress): Static-first, file-native CMS for the modern web.
-- [`zeropress-core`](https://github.com/zeropress-app/zeropress-core): Backend API for the ZeroPress admin dashboard.
-- [`zeropress-studio`](https://github.com/zeropress-app/zeropress-studio): Frontend app for the ZeroPress admin dashboard.
-- [`zeropress-pages`](https://github.com/zeropress-app/zeropress-pages): Edge page delivery worker for ZeroPress sites.
+- [`zeropress-studio`](https://github.com/zeropress-app/zeropress-studio): Admin UI for managing content and publishing ZeroPress sites.
+- [`zeropress-studio-api`](https://github.com/zeropress-app/zeropress-studio-api): Backend API for content operations, media, preview-data generation, and publishing workflows.
+- [`zeropress-edge`](https://github.com/zeropress-app/zeropress-edge): Optional public runtime service for static ZeroPress sites, such as comments and forms.
 
 ## Theme Ecosystem
 
 - [`zeropress-theme`](https://github.com/zeropress-app/zeropress-theme): Developer toolkit for building ZeroPress themes.
-- [`zeropress-create-theme`](https://github.com/zeropress-app/zeropress-create-theme): Starter generator.
+- [`zeropress-create-theme`](https://github.com/zeropress-app/zeropress-create-theme): Starter generator for scaffolded v0.6 themes and sample preview data.
 - [`zeropress-theme-validator`](https://github.com/zeropress-app/zeropress-theme-validator): Runtime validator for ZeroPress themes.
 
 ## Build and Validation
@@ -40,10 +40,12 @@ Bug reports, feature requests, documentation feedback, and design discussions ar
 
 ## Documentation
 
-- [`zeropress.dev`](https://github.com/zeropress-app/zeropress.dev): Public runtime documentation and JSON schemas for ZeroPress.
+- [`zeropress.dev`](https://github.com/zeropress-app/zeropress.dev): Public documentation for ZeroPress contracts, authoring workflows, and build tools.
+- [`schemas.zeropress.dev`](https://github.com/zeropress-app/schemas.zeropress.dev): Canonical JSON Schema host for ZeroPress contract files.
 
 ## Links
 
 - Website: [zeropress.app](https://zeropress.app)
 - Docs: [zeropress.dev](https://zeropress.dev)
+- Schemas: [schemas.zeropress.dev](https://schemas.zeropress.dev)
 - License: Open source under Apache-2.0 and MIT.
