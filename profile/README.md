@@ -1,14 +1,20 @@
 # ZeroPress
 
-ZeroPress is a static-first, file-native publishing platform for the modern web.
+ZeroPress is a static-first document publishing platform for Markdown sites, structured content, reusable themes, and CMS-grade authoring workflows.
 
 This organization contains the official repositories for the ZeroPress platform, including backend services, frontend apps, theme tooling, runtime validators, and public documentation.
 
+ZeroPress has three main entry points:
+
+- Markdown document publishing with `@zeropress/build-pages`
+- Direct static builds from `preview-data.json` and a ZeroPress theme with `@zeropress/build`
+- Studio-based document authoring, imports, media management, and publishing with ZeroPress Studio
+
 ## Project Status
 
-ZeroPress is currently in alpha and actively dogfooded. The core publishing cycle is working end to end, including preview-data generation, theme rendering, static builds, and hosted deployment workflows.
+ZeroPress is currently in alpha and actively dogfooded. The core publishing cycle is working end to end, including Markdown-source builds, preview-data generation, theme rendering, Studio publishing flows, static builds, and hosted deployment workflows.
 
-The v0.6 contracts are being tested against real publishing scenarios. The GitHub Action and CLI toolchain is usable today, while the admin dashboard remains under active development.
+The v0.6 contracts are being tested against real publishing scenarios. The GitHub Action and CLI toolchain is usable today, while Studio and Edge continue to evolve from MVP implementations.
 
 ## Contribution Policy
 
@@ -20,7 +26,7 @@ Bug reports, feature requests, documentation feedback, and design discussions ar
 
 ## Core Repositories
 
-- [`zeropress`](https://github.com/zeropress-app/zeropress): Static-first, file-native CMS for the modern web.
+- [`zeropress`](https://github.com/zeropress-app/zeropress): Product landing site and public entry point for ZeroPress.
 - [`zeropress-studio`](https://github.com/zeropress-app/zeropress-studio): Admin UI for managing content and publishing ZeroPress sites.
 - [`zeropress-studio-api`](https://github.com/zeropress-app/zeropress-studio-api): Backend API for content operations, media, preview-data generation, and publishing workflows.
 - [`zeropress-edge`](https://github.com/zeropress-app/zeropress-edge): Optional public runtime service for static ZeroPress sites, such as comments and forms.
