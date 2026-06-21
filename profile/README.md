@@ -2,7 +2,15 @@
 
 ZeroPress is a static-first document publishing platform for Markdown sites, structured content, reusable themes, and CMS-grade authoring workflows.
 
-This organization contains the official repositories for the ZeroPress platform, including backend services, frontend apps, theme tooling, runtime validators, and public documentation.
+This organization contains the official repositories for the ZeroPress platform, including public sites, Build Pages, theme tooling, runtime validators, Studio, Edge, and contract documentation.
+
+## Start Here
+
+- [zeropress.app](https://zeropress.app/): product overview and public entry point for ZeroPress.
+- [build-pages.zeropress.dev](https://build-pages.zeropress.dev/): product documentation for turning a Markdown source directory into a static ZeroPress site.
+- [zeropress.page](https://zeropress.page/): bundled theme previews and source examples for Build Pages sites.
+- [zeropress.dev](https://zeropress.dev/): technical documentation for preview-data, theme runtime, theme authoring, and CLI contracts.
+- [schemas.zeropress.dev](https://schemas.zeropress.dev/): canonical JSON Schema host for ZeroPress contract files.
 
 ZeroPress has three main entry points:
 
@@ -40,18 +48,22 @@ Bug reports, feature requests, documentation feedback, and design discussions ar
 ## Build and Validation
 
 - [`zeropress-build`](https://github.com/zeropress-app/zeropress-build): CLI for full ZeroPress builds.
-- [`zeropress-build-pages`](https://github.com/zeropress-app/zeropress-build-pages): GitHub Action and CLI for building Markdown-based ZeroPress sites.
+- [`zeropress-build-pages`](https://github.com/zeropress-app/zeropress-build-pages): GitHub Action and CLI for publishing Markdown source directories as static ZeroPress sites.
 - [`zeropress-build-core`](https://github.com/zeropress-app/zeropress-build-core): Core library for the ZeroPress build system.
 - [`zeropress-preview-data-validator`](https://github.com/zeropress-app/zeropress-preview-data-validator): Runtime contract validator for preview payloads.
 
 ## Documentation
 
-- [`zeropress.dev`](https://github.com/zeropress-app/zeropress.dev): Public documentation for ZeroPress contracts, authoring workflows, and build tools.
+- [`zeropress.dev`](https://github.com/zeropress-app/zeropress.dev): Technical documentation for ZeroPress contracts, theme authoring, and build tools.
+- [`build-pages.zeropress.dev`](https://github.com/zeropress-app/build-pages.zeropress.dev): Product documentation for `@zeropress/build-pages`.
+- [`zeropress.page`](https://github.com/zeropress-app/zeropress.page): Theme preview and usage example sites for ZeroPress-maintained themes.
 - [`schemas.zeropress.dev`](https://github.com/zeropress-app/schemas.zeropress.dev): Canonical JSON Schema host for ZeroPress contract files.
 
 ## Links
 
 - Website: [zeropress.app](https://zeropress.app)
+- Build Pages: [build-pages.zeropress.dev](https://build-pages.zeropress.dev)
+- Theme previews: [zeropress.page](https://zeropress.page)
 - Docs: [zeropress.dev](https://zeropress.dev)
 - Schemas: [schemas.zeropress.dev](https://schemas.zeropress.dev)
 - License: Open source under Apache-2.0 and MIT.
