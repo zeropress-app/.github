@@ -1,8 +1,8 @@
 # ZeroPress
 
-ZeroPress is a static-first document publishing platform for Markdown sites, structured content, reusable themes, and CMS-grade authoring workflows.
+ZeroPress is a static-first publishing platform for Markdown sites, structured content, reusable themes, WordPress migration, and CMS-grade authoring workflows.
 
-This organization contains the official repositories for the ZeroPress platform, including public sites, Build Pages, theme tooling, runtime validators, Studio, Edge, and contract documentation.
+This organization contains the official repositories for the ZeroPress platform, including public sites, Build Pages, the WXR import bridge, theme tooling, runtime validators, Studio, Edge, and contract documentation.
 
 ## Start Here
 
@@ -11,18 +11,21 @@ This organization contains the official repositories for the ZeroPress platform,
 - [zeropress.page](https://zeropress.page/): bundled theme previews and source examples for Build Pages sites.
 - [zeropress.dev](https://zeropress.dev/): technical documentation for preview-data, theme runtime, theme authoring, and CLI contracts.
 - [schemas.zeropress.dev](https://schemas.zeropress.dev/): canonical JSON Schema host for ZeroPress contract files.
+- [`@zeropress/wxr-import`](https://github.com/zeropress-app/zeropress-wxr-import): WordPress migration CLI for producing canonical Preview Data.
 
-ZeroPress has three main entry points:
+ZeroPress has three public entry points:
 
 - Markdown document publishing with `@zeropress/build-pages`
+- WordPress migration from WXR exports with `@zeropress/wxr-import`, followed by `@zeropress/build`
 - Direct static builds from `preview-data.json` and a ZeroPress theme with `@zeropress/build`
-- Studio-based document authoring, imports, media management, and publishing with ZeroPress Studio
+
+ZeroPress Studio is being developed as an integrated authoring, import, media-management, and publishing product. It is not publicly released yet.
 
 ## Project Status
 
-ZeroPress is currently in alpha and actively dogfooded. The core publishing cycle is working end to end, including Markdown-source builds, preview-data generation, theme rendering, Studio publishing flows, static builds, and hosted deployment workflows.
+ZeroPress is currently in beta. The public v0.7 contracts and the build, theme, and WordPress migration toolchain are feature-complete and actively dogfooded across real publishing workflows.
 
-The v0.6 contracts are being tested against real publishing scenarios. The GitHub Action and CLI toolchain is usable today, while Studio and Edge continue to evolve from MVP implementations.
+During beta, the focus is compatibility, documentation, external testing, and defect correction. The GitHub Action and public CLI toolchain are available today. Studio and Edge remain unreleased alpha products; they consume the public ZeroPress contracts but do not define the schema contracts or determine their release status.
 
 ## Contribution Policy
 
@@ -30,19 +33,17 @@ ZeroPress is currently developed as a maintainer-led project.
 
 At this stage, we are not accepting pull requests for code changes. This helps us keep the architecture consistent and maintain clear code provenance during early development.
 
-Bug reports, feature requests, documentation feedback, and design discussions are welcome through Issues or Discussions. We appreciate thoughtful feedback and real-world usage reports.
+Bug reports, feature requests, documentation feedback, and design discussions are welcome through Issues. We appreciate thoughtful feedback and real-world usage reports.
 
 ## Core Repositories
 
-- [`zeropress`](https://github.com/zeropress-app/zeropress): Product landing site and public entry point for ZeroPress.
-- [`zeropress-studio`](https://github.com/zeropress-app/zeropress-studio): Admin UI for managing content and publishing ZeroPress sites.
-- [`zeropress-studio-api`](https://github.com/zeropress-app/zeropress-studio-api): Backend API for content operations, media, preview-data generation, and publishing workflows.
-- [`zeropress-edge`](https://github.com/zeropress-app/zeropress-edge): Optional public runtime service for static ZeroPress sites, such as comments and forms.
+- [`zeropress-studio`](https://github.com/zeropress-app/zeropress-studio): Unreleased integrated authoring, import, media-management, and publishing product.
+- [`zeropress-edge`](https://github.com/zeropress-app/zeropress-edge): Unreleased optional runtime service for static ZeroPress sites, such as comments and forms.
 
 ## Theme Ecosystem
 
 - [`zeropress-theme`](https://github.com/zeropress-app/zeropress-theme): Developer toolkit for building ZeroPress themes.
-- [`zeropress-create-theme`](https://github.com/zeropress-app/zeropress-create-theme): Starter generator for scaffolded v0.6 themes and sample preview data.
+- [`zeropress-create-theme`](https://github.com/zeropress-app/zeropress-create-theme): Starter generator for scaffolded ZeroPress themes and sample Preview Data.
 - [`zeropress-theme-validator`](https://github.com/zeropress-app/zeropress-theme-validator): Runtime validator for ZeroPress themes.
 
 ## Build and Validation
@@ -51,6 +52,7 @@ Bug reports, feature requests, documentation feedback, and design discussions ar
 - [`zeropress-build-pages`](https://github.com/zeropress-app/zeropress-build-pages): GitHub Action and CLI for publishing Markdown source directories as static ZeroPress sites.
 - [`zeropress-build-core`](https://github.com/zeropress-app/zeropress-build-core): Core library for the ZeroPress build system.
 - [`zeropress-preview-data-validator`](https://github.com/zeropress-app/zeropress-preview-data-validator): Runtime contract validator for preview payloads.
+- [`zeropress-wxr-import`](https://github.com/zeropress-app/zeropress-wxr-import): CLI for converting WordPress WXR exports into canonical Preview Data.
 
 ## Documentation
 
