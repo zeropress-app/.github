@@ -65,6 +65,7 @@ Bug reports, feature requests, documentation feedback, and design discussions ar
 
 - Website: [zeropress.app](https://zeropress.app)
 - Build Pages: [build-pages.zeropress.dev](https://build-pages.zeropress.dev)
+- Studio Guide [studio.zeropress.dev](https://studio.zeropress.dev)
 - Theme previews: [zeropress.page](https://zeropress.page)
 - Docs: [zeropress.dev](https://zeropress.dev)
 - Schemas: [schemas.zeropress.dev](https://schemas.zeropress.dev)
