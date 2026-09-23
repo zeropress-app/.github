@@ -14,12 +14,15 @@ This organization contains the official repositories for the ZeroPress platform,
 - [schemas.zeropress.dev](https://schemas.zeropress.dev/): canonical JSON Schema host for ZeroPress contract files.
 - [`@zeropress/wxr-import`](https://github.com/zeropress-app/zeropress-wxr-import): WordPress migration CLI for producing canonical Preview Data.
 
-Choose a publishing workflow:
+## Starter Repositories
 
-- Markdown document publishing with `@zeropress/build-pages`
-- WordPress migration from WXR exports with `@zeropress/wxr-import`, followed by `@zeropress/build`
-- Managed authoring, media management, WordPress import, and publishing with ZeroPress Studio
-- Direct static builds from `preview-data.json` and a ZeroPress theme with `@zeropress/build`
+Each starter includes a Deploy to Cloudflare button.
+
+- [`zeropress-starter-studio`](https://github.com/zeropress-app/zeropress-starter-studio): Static site starter for publishing from ZeroPress Studio to Cloudflare Workers.
+- [`zeropress-starter-markdown`](https://github.com/zeropress-app/zeropress-starter-markdown): Markdown documentation starter for ZeroPress, ready to deploy to Cloudflare Workers.
+- [`zeropress-starter-wxr`](https://github.com/zeropress-app/zeropress-starter-wxr): Try ZeroPress with a WordPress WXR export while keeping the original media, content links, and WordPress comments.
+
+For direct static builds, use `@zeropress/build` with Preview Data and a ZeroPress theme.
 
 ## Project Status
 
