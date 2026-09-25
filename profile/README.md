@@ -1,13 +1,16 @@
 # ZeroPress
 
-ZeroPress is a static-first publishing platform for Markdown sites, structured content, reusable themes, WordPress migration, and CMS-grade authoring workflows.
+ZeroPress is open-source software for creating and publishing static websites.
+Write in Studio, use Markdown, or import WordPress content, then publish to your
+chosen host.
 
-This organization contains the official repositories for the ZeroPress platform, including public sites, Build Pages, the WXR import bridge, theme tooling, runtime validators, Studio, Edge, and contract documentation.
+This organization hosts the official ZeroPress repositories. Packages are
+published under the [`@zeropress`](https://www.npmjs.com/org/zeropress) npm scope.
 
 ## Start Here
 
 - [zeropress.app](https://zeropress.app/): product overview and public entry point for ZeroPress.
-- [studio.zeropress.dev](https://studio.zeropress.dev/): product documentation for managed authoring, media, migration, and publishing with ZeroPress Studio.
+- [studio.zeropress.dev](https://studio.zeropress.dev/): product documentation for writing, media, WordPress imports, and publishing with ZeroPress Studio.
 - [build-pages.zeropress.dev](https://build-pages.zeropress.dev/): product documentation for turning a Markdown source directory into a static ZeroPress site.
 - [zeropress.page](https://zeropress.page/): bundled theme previews and source examples for Build Pages sites.
 - [zeropress.dev](https://zeropress.dev/): technical documentation for preview-data, theme runtime, theme authoring, and CLI contracts.
